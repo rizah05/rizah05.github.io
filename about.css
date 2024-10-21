@@ -78,7 +78,7 @@ nav a.active{
 }
 .text 
 {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.6;
     margin-top: 20px;
     position: absolute; 
@@ -99,7 +99,7 @@ table
     background-color: transparent; 
     margin-top: 20px;
     position: absolute;
-    top: 55%;
+    top: 52%;
     left: 50%;
     transform: translateX(-50%); 
     font-family: 'Papyrus';
