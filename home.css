@@ -101,7 +101,7 @@ nav a.active{
 .pic img
 {
     display: block;
-    border-radius: 50;
+    border-radius: 50%;
     width: 20%;
     height: 20%;
     object-fit: cover;
