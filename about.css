@@ -99,7 +99,7 @@ table
     background-color: transparent; 
     margin-top: 20px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%); 
     font-family: 'Papyrus';
