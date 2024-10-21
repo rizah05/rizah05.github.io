@@ -1,0 +1,150 @@
+body 
+{
+    font-family: 'Papyrus';
+    background-image: url(images/cat.jpg);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: #7A1CAC;
+    color: white;
+}
+
+.navbar 
+{
+    background-color: transparent;
+    padding: 30px;
+    filter: drop-shadow(10px);
+}
+
+.navlist 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist ul 
+{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin-right: 80px;
+}
+
+.navlist li 
+{
+    margin-left: 20px;
+}
+
+.navlist a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    font-size: 30px;
+    font-family: 'Chiller';
+}
+
+nav a:hover,
+nav a.active{
+    color: #FABD2D;
+    border-bottom: 3px solid #FABD2D ;
+}
+
+.logo 
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #FABD2D;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.R
+{
+    color: #FABD2D;
+    font-family: 'Chiller';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute; 
+    top: 6%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-weight: 500;
+}
+.container 
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.education, .skills-container /* Adding a new flexbox for tech and skills */
+{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.educ, .educ2, .tech, .skills 
+{
+    width: 50%; 
+}
+
+.educ h2, .tech h2, .skills h2 {
+    color: #FABD2D; 
+    font-family: 'Chiller';
+    font-size: 45px;
+}
+
+b 
+{
+    color: #FABD2D; 
+}
+
+p 
+{
+    margin: 10px 0;
+}
+
+ul 
+{
+    list-style: circle; 
+    padding: 0;
+}
+
+li 
+{
+    margin-bottom: 10px;
+}
+
+hr 
+{
+    border: 1px solid transparent;
+    margin: 20px 0;
+}
+
+.educ, .educ2, .tech, .skills 
+{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.educ, .educ2, .tech, .skills 
+{
+    background-color: transparent;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    bottom: 80%;
+}

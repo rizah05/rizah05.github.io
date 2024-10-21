@@ -1,0 +1,112 @@
+body 
+{
+    background-image: url(images/purple.png);
+    font-family: 'Chiller';
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar 
+{
+    background-color: transparent;
+    padding: 30px;
+    filter: drop-shadow(10px);
+}
+
+.navlist 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist ul 
+{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    margin-right: 80px;
+}
+
+.navlist li 
+{
+    margin-left: 20px;
+}
+
+.navlist a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+    font-size: 30px;
+}
+
+nav a:hover,
+nav a.active{
+    color: #FABD2D;
+    border-bottom: 3px solid #FABD2D ;
+}
+
+.logo 
+{
+    font-size: 80px;
+    font-weight: bold;
+    color: #FABD2D;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.intro 
+{
+    text-align: center;
+    display: flow-root;
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 65px;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.intro h1 span 
+{
+    color: #FABD2D; 
+}
+.pic img
+{
+    display: block;
+    border-radius: 30%;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border: 3px solid #FABD2D;
+    margin: 5px auto;
+    top: 8%;
+    left: 50%;
+}
